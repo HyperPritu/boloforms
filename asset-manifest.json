@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/boloforms/static/css/main.31b0f657.css",
+    "main.js": "/boloforms/static/js/main.8100fc4c.js",
+    "static/media/w3.svg": "/boloforms/static/media/w3.ee510fc0236340767cf6f22cb4547cfe.svg",
+    "static/media/u1.svg": "/boloforms/static/media/u1.3b3086999068cdcab4b34e65fc260ca1.svg",
+    "static/media/w2.svg": "/boloforms/static/media/w2.b9e30b28ffdba967928a1c21f6a1c5e5.svg",
+    "static/media/w1.svg": "/boloforms/static/media/w1.d71b99c2239ace1413ac3081cd651027.svg",
+    "static/media/u2.svg": "/boloforms/static/media/u2.e3be1d3dba24bb88f71217bf666b1c71.svg",
+    "static/media/u5.svg": "/boloforms/static/media/u5.8d16a82c749bdec05cf635abb2a18956.svg",
+    "static/media/premium.jpg": "/boloforms/static/media/premium.85bbf40dbf3434e6c805.jpg",
+    "static/media/u4.svg": "/boloforms/static/media/u4.7cae8960713032f73c4ef78decef0e4d.svg",
+    "static/media/logo-text.e6f7617c.svg": "/boloforms/static/media/logo-text.e6f7617c.c971b4e2c81700494ef92633c398bea8.svg",
+    "static/media/u3.svg": "/boloforms/static/media/u3.57d54fb6520c44374ec9aeb166e52da9.svg",
+    "static/media/FA.c696cc9e.svg": "/boloforms/static/media/FA.c696cc9e.01602a713eb27ddb8d62e9ad32a952a8.svg",
+    "index.html": "/boloforms/index.html",
+    "static/media/S.87bf14fd.svg": "/boloforms/static/media/S.87bf14fd.06105d11eaa639bef5d9b9e9e3da0c4d.svg",
+    "static/media/TP.5489abce.svg": "/boloforms/static/media/TP.5489abce.b1eb4fe939c6ad3d09c60c9aa72a0c11.svg",
+    "main.31b0f657.css.map": "/boloforms/static/css/main.31b0f657.css.map",
+    "main.8100fc4c.js.map": "/boloforms/static/js/main.8100fc4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31b0f657.css",
+    "static/js/main.8100fc4c.js"
+  ]
+}
