@@ -1,0 +1,48 @@
+.work {
+	margin-left: 8rem;
+	margin-right: 8rem;
+}
+
+.section__title{
+    font-size: var(--h2-font-size);
+}
+
+.work__content {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0;
+}
+
+.work__card {
+    text-align: center;
+}
+
+.work__img {
+	transform: translateY(0);
+	transition: 0.3s ease-in-out;
+}
+
+.work__img:hover {
+	transform: translateY(-1rem);
+}
+
+/* ====================== BREAKPOINTS ====================== */
+/* Medium Device */
+@media screen and (max-width: 768px) {
+    .work {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+	.work__content {
+        grid-template-columns: 1fr;
+    }
+    .work__title{
+        font-size: var(--h2-font-size);
+    }
+    .work__subtitle{
+        font-size: var(--normal-font-size);
+    }
+}
+
+@media screen and (max-width: 576px) {
+	
+}

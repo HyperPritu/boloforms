@@ -1,0 +1,121 @@
+.workflow {
+	margin-left: 8rem;
+	margin-right: 8rem;
+	border: 1px solid var(--border-color);
+	padding: var(--mb-2);
+	border-radius: 1rem;
+}
+
+.workflow__content {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0;
+	margin-bottom: var(--mb-2-5);
+}
+
+.left,
+.right {
+	border-radius: 1rem;
+	padding: 1.25rem;
+	width: 100%;
+}
+
+.grid {
+	align-items: center;
+	/* justify-items: center; */
+	justify-self: center;
+}
+
+.left {
+	background: linear-gradient(90deg, rgba(252, 241, 251, 0), #f7dff5);
+}
+
+.right {
+	background: linear-gradient(270deg, rgba(236, 243, 255, 0), #ecf3ff);
+}
+
+.workflow__list-item {
+	display: flex;
+	background: #fff;
+	align-items: center;
+	column-gap: 0.5rem;
+	padding: var(--mb-1) var(--mb-2);
+	border-radius: 1rem;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.image::before {
+	content: '';
+	position: absolute;
+	width: 4rem;
+	border: 1px solid var(--border-color);
+	left: 0;
+}
+
+.image::after {
+	content: '';
+	position: absolute;
+	width: 4rem;
+	border: 1px solid var(--border-color);
+	right: 0;
+}
+
+.image > img {
+	padding: 0 6rem;
+}
+
+.workflow__text {
+	color: rgb(0, 0, 0, 0.5);
+}
+
+.workflow__text-bottom {
+	margin-bottom: 0;
+}
+
+/* ====================== BREAKPOINTS ====================== */
+/* Medium Device */
+@media screen and (max-width: 768px) {
+	.workflow {
+		margin-left: var(--mb-1);
+		margin-right: var(--mb-1);
+	}
+
+	.workflow__content {
+		grid-template-columns: 1fr;
+	}
+
+	.left,
+	.right {
+		border-radius: 1rem;
+		padding: 1.25rem;
+		width: 350px;
+	}
+
+	.image > img {
+		padding: 2rem 0;
+		width: 30vmax;
+	}
+
+	.image::before {
+		height: 4rem;
+		width: 0;
+		top: 0;
+		left: 50%;
+	}
+
+	.image::after {
+		height: 4rem;
+		width: 0;
+		bottom: 0;
+		left: 50%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	
+}

@@ -1,0 +1,17 @@
+.customers {
+	margin: 0 8rem;
+}
+
+/* ====================== BREAKPOINTS ====================== */
+/* Medium Device */
+@media screen and (max-width: 768px) {
+	.customers {
+		margin: 0 var(--mb-1);  
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.customers{
+		display: none;
+	}
+}

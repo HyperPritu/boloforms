@@ -1,0 +1,71 @@
+.faq {
+	margin: 0 8rem;
+}
+
+.faqs {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2.5rem;
+	column-gap: 1rem;
+	justify-content: space-between;
+}
+
+.faqs .child {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.faq-item {
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 0.5rem;
+}
+
+.faq-item-top {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.faq-item p {
+	font-size: var(--small-font-size);
+	line-height: 1.5rem;
+	text-align: left;
+}
+
+.faq-item-top p {
+	flex: 1;
+	text-align: left;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	font-weight: 600;
+}
+
+.faq-item-top svg {
+	margin-left: 1rem;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+
+.support__button {
+	color: #000;
+}
+
+/* ====================== BREAKPOINTS ====================== */
+/* Medium Device */
+@media screen and (max-width: 768px) {
+	.faq {
+		margin-left: var(--mb-1);
+		margin-right: var(--mb-1);
+	}
+
+    .faqs{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}

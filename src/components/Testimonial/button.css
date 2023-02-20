@@ -1,0 +1,37 @@
+.buttons{
+    margin-top: 3rem;
+}
+
+.button__container{
+    grid-template-columns: 1fr;
+}
+
+.button__grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.button__button{
+    font-size: var(--normal-font-size);
+	font-weight: var(--font-semi-bold);
+    line-height: 1.75rem;
+	letter-spacing: .025em;
+	word-spacing: 0.2em;
+}
+
+.button__check{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: .5rem;
+    color: rgb(75 85 99/0.8);
+
+}
+
+.button__check>span{
+    display: flex;
+    column-gap: .5rem;
+}
