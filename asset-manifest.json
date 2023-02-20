@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/boloforms/static/css/main.31b0f657.css",
-    "main.js": "/boloforms/static/js/main.8100fc4c.js",
+    "main.css": "/boloforms/static/css/main.c4650b89.css",
+    "main.js": "/boloforms/static/js/main.36810582.js",
     "static/media/w3.svg": "/boloforms/static/media/w3.ee510fc0236340767cf6f22cb4547cfe.svg",
     "static/media/u1.svg": "/boloforms/static/media/u1.3b3086999068cdcab4b34e65fc260ca1.svg",
     "static/media/w2.svg": "/boloforms/static/media/w2.b9e30b28ffdba967928a1c21f6a1c5e5.svg",
@@ -16,11 +16,11 @@
     "index.html": "/boloforms/index.html",
     "static/media/S.87bf14fd.svg": "/boloforms/static/media/S.87bf14fd.06105d11eaa639bef5d9b9e9e3da0c4d.svg",
     "static/media/TP.5489abce.svg": "/boloforms/static/media/TP.5489abce.b1eb4fe939c6ad3d09c60c9aa72a0c11.svg",
-    "main.31b0f657.css.map": "/boloforms/static/css/main.31b0f657.css.map",
-    "main.8100fc4c.js.map": "/boloforms/static/js/main.8100fc4c.js.map"
+    "main.c4650b89.css.map": "/boloforms/static/css/main.c4650b89.css.map",
+    "main.36810582.js.map": "/boloforms/static/js/main.36810582.js.map"
   },
   "entrypoints": [
-    "static/css/main.31b0f657.css",
-    "static/js/main.8100fc4c.js"
+    "static/css/main.c4650b89.css",
+    "static/js/main.36810582.js"
   ]
 }
